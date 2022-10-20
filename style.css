@@ -120,6 +120,11 @@ p {
   .yoga-text {
     font-size: 26px;
   }
+  .yoga-text,
+  .paragraph-for-devices,
+  .position-for-devices {
+    text-align: center;
+  }
 }
 
 @media (max-width: 280px) {
