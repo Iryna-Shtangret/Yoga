@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px;
+  padding-bottom: 30px;
 }
 
 .btn-primary {
@@ -107,4 +108,16 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .about {
+    font-size: 42px;
+  }
+  .hello {
+    font-size: 36px;
+  }
+  .yoga-text {
+    font-size: 26px;
+  }
 }
